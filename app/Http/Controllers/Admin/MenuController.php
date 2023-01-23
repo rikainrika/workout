@@ -15,17 +15,6 @@ class MenuController extends Controller
         return view('admin.user.homeselect', ['menus' => $menus]);
     }
     
-    public function add(){
-        // $menusTmp = Menu::where('user_id', '=', Auth::user()->id)->get();
-        // $menus = [];
-        // foreach ($menusTmp as $menu){
-        //   $menus[$menu->order] = $menu;
-        // }
-        // var_dump($menus);
-        // exit;
-        // return view('admin.user.setting', ['menus' => $menus]);
-    }
-    
     public function store(Request $request){
       
       $this->validate($request, Menu::$rules);

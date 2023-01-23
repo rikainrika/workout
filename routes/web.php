@@ -43,7 +43,6 @@ Route::post('/create', [UserController::class, 'create']);
 Route::get('/admin/setting', [SettingController::class, 'add']);
 Route::post('/admin/setting', [SettingController::class, 'create']);
 
-Route::get('/admin/menu', [MenuController::class, 'add']);
 Route::post('/admin/menu', [MenuController::class, 'store']);
 
 Route::get('/complete', [RecordsController::class, 'complete']);
