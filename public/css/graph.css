@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  border: solid;
+	border-radius: 50px;
+	border-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 50px;
+  float: right;
+	padding: 10px;
+  max-width: 130px;
+  background-color: #42a17040;
+}
+
+.explanation{
+  text-align: left;
+  color: #4a4a4a;
+  margin-top: 70px;
+  margin-left: 5px;
+}
+
+#myChart  {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+
+
+

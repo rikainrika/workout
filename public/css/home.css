@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.font{
+  font-family: Hiragino Maru Gothic ProN W4;
+}
+
+.form-check-input{
+  margin-left: -190px;
+}
+
+.header-3 {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1500px;
+  height: 60px;
+  padding: 0 0.8em;
+  margin: 0 auto;
+  font-size: 1.2em;
+  background-color: rgba(248, 210, 211, 0.922);
+}
+
+.header-nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-item span{
+  display: block;
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+input{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+ 
+input[type="submit"]{
+    display: block;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 150px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #45cc82;
+    border-bottom: solid 5px #3cb371;
+  }
+
+.selected-menu{
+  background: #a1a1a1;
+  color: #fff;
+}
+
+.selected-menu a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.non-selected-menu a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo img {
+  width: 180px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.select {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 150%;
+    color: rgb(87, 87, 87);
+} 
+
+.at_setting{
+  text-align: center;
+    color: rgb(87, 87, 87);
+}
+
+.notyet{
+ margin-top: 50px;
+ text-align: center;
+}
+
+.forms{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+ 
+ .form_title{
+    color: white;
+    background-color: #3cb371;
+    padding: 10px 30px;
+  }
+ 
+.form_content{
+    margin: 15px 50px;
+  }
+ 
+.form_list{
+    margin-bottom: 1em;
+  }
+  
+.box1 {
+    cursor:pointer;
+    border: 2px solid rgb(102, 102, 102);
+    border-radius: 10px;
+    background-color: rgb(255, 208, 146);
+    padding: 1.5em;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: larger;
+    font-family: Hiragino Maru Gothic ProN W4;
+  }
+
+.box2 {
+    cursor:pointer;
+    border: 2px solid rgb(102, 102, 102);
+    border-radius: 10px;
+    background-color: rgb(210, 235, 174);
+    padding: 1.5em;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: larger;
+    font-family: Hiragino Maru Gothic ProN W4;
+  }
+
+.box3 {
+    cursor:pointer;
+    border: 2px solid rgb(102, 102, 102);
+    border-radius: 10px;
+    background-color: rgb(234, 161, 161);
+    padding: 1.5em;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: larger;
+    font-family: Hiragino Maru Gothic ProN W4;
+  }
+
+.box4 {
+    cursor:pointer;
+    border: 2px solid rgb(102, 102, 102);
+    border-radius: 10px;
+    background-color: rgb(174, 229, 237);
+    padding: 1.5em;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: larger;  
+    font-family: Hiragino Maru Gothic ProN W4;
+  }
+
+.box5 {
+    cursor:pointer;
+    border: 2px solid rgb(102, 102, 102);
+    border-radius: 10px;
+    background-color: rgb(225, 172, 255);
+    padding: 1.5em;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: larger;
+    font-family: Hiragino Maru Gothic ProN W4;
+  }
