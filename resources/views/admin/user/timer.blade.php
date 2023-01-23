@@ -63,7 +63,7 @@
         document.getElementById('next').addEventListener('click',function() {
         let sec = (currentTime.getHours()-9)*3600+currentTime.getMinutes()*60+currentTime.getSeconds();
         if(sec >= {{Auth::user()->setting->seconds*60}}){
-         window.location.href = "https://6418291ae13f4326b8f3ea9671483b50.vfs.cloud9.us-west-1.amazonaws.com/complete?name={{$name}}&seconds=" + sec;
+         window.location.href = "workout.0am.jp/complete?name={{$name}}&seconds=" + sec;
          }
         });
       </script>
