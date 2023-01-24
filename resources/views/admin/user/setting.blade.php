@@ -39,12 +39,12 @@
           <div id="left">
             <div class="lets">①目標を決めましょう</div>
               <div class="form">
-                <div class="form_title">1日のトレーニング時間目標</div>  
+                <div class="form_title">トレーニング時間の目標</div>  
                   <div class="form_content">
                     <form action="/admin/setting" method="post">
                       @csrf
                       <div class="form_list">
-                        <div class="goal_ex">目標を達成するとやる気が出る<br>偉人からのメッセージが読めるかも！<br>《  現在の目標：{{Auth::user()->setting == NULL ? '' : Auth::user()->setting->seconds}}　分/日  》</div>
+                        <div class="goal_ex">目標を達成するとやる気が出る<br>偉人からのメッセージが読めるかも！<br>《  現在の目標：{{Auth::user()->setting == NULL ? '' : Auth::user()->setting->seconds}}　分  》</div>
                         <input id="miniput" name="seconds" type="number"> 
                         <div class="minuites">分</div>
                         <input type="submit" value="決定">
